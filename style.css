@@ -93,3 +93,11 @@ footer{
     color: white;
     background-color: #252934;
 }
+@media screen and (max-width : 480px) {
+    .pow{
+         flex-direction: column;
+}
+    .form{
+          width:50%;
+}
+}
