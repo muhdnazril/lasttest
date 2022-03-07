@@ -50,12 +50,26 @@ section{
 }
 .pow{
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1em;
     width: 80%;
     margin: 0px auto;
+    flex: 1;
+}
+.pow img{
+    object-fit: cover;
+    width: 400px;
+    height: 200px;
+}
+.w1, .w2, .w3, .w4{
+    background-color: #ffff;
+    padding-bottom: 1rem;
+    font-size: large;
+}
+.w1 p, .w2 p, .w3 p, .w4 p{
+    margin: 1rem;
 }
 .pow img{
     object-fit: cover;
