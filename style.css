@@ -80,6 +80,9 @@ hr{
     height: 30em;
     margin: 0 auto;
 }
+.form p{
+    color: red;
+}
 .form input , .form textarea, .form button{
     border-radius: 5px;
     padding: 0.5em 1em;
