@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    background-color: #EDEDED;
+}
+header{
+    background-image: url(header-background.png);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+header div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+}
+header div span{
+    color: red;
+}
+header div button{
+    background-color: inherit;
+    padding: 10px;
+    border-color: white;
+    color: white;
+}
+nav{
+    width: 100%;
+    padding-top: 0,5em;
+    position: sticky;
+    top: 0;
+}
+nav div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #252934 ;
+}
+nav div a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1.5rem;
+}
+section{
+    width: 90%;
+    margin: 0 auto;
+}
+.pow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 0px auto;
+    padding-bottom: 1rem;
+}
+.wi img{
+    object-fit: cover;
+    width: 330px;
+    height: 200px;
+} 
+.wi{
+    padding-bottom: 1em;
+    background-color: #ffff;
+}
+hr{
+    border: none;
+    height: 3px;
+    background-color: black;
+    margin-bottom: 1rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 35vh;
+    height: 30em;
+    margin: 0 auto;
+}
+.form p{
+    color: red;
+}
+.form input , .form textarea, .form button{
+    border-radius: 5px;
+    padding: 0.5em 1em;
+    margin-bottom: 3px;
+}
+.form input , .form textarea{
+    background-color: #252934;
+    color: white;
+    border: none;
+}
+.form button{
+    margin-bottom: 2rem;
+}
+footer{
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    color: white;
+    background-color: #252934;
+}
+footer p{
+    margin: 0;
+}
+
+/* mobile */
+ /* @media screen and (max-width: 1024px) {
+    .pow {
+        flex-basis: 50%; */
+         /* column-gap: 5em;  */
+    /* }
+    .form{
+        width: 80%;
+    }
+} */
+
+/*mobile */
+/* @media screen and (max-width:550px) {
+    .pow{
+        display: flex;
+        flex-direction: column;
+    }
+    .pow img{ */
+        /* width: 100%; */
+        /* height: auto;
+    } 
+} */
